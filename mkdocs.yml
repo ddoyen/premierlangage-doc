@@ -1,6 +1,6 @@
 site_name: Premier Langage
 site_author: Q. Coumes, D. Revuz, M. Cisse, C. Callé
-repo_url: https://github.com/PremierLangage/premierlangage
+repo_url: https://github.com/PremierLangage/documentationpl
 edit_uri: tree/master/server/serverpl/documentation/mkdocs/docs
 
 nav:
