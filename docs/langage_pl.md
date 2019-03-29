@@ -2,11 +2,15 @@
 
 
 ## Introduction
-Sur Premier Langage, les exercices sont écrits à l'aide du langage **pl**.
-**pl** est un langage déclaratif très simple permettant d'associer des *valeurs*
-à des *clés*.
-La création d'exercice repose donc sur la définition de clés précises qui seront
-interprétées par la plateforme afin d'afficher l'exercice.
+Dans Premier Langage, les exercices sont écrits à l'aide du langage **pl**.
+**pl** est un langage déclaratif simple permettant d'associer des *valeurs*
+à des *clés*. Les *clés* décrivent les éléments primordiaux permettant de 
+mettre en jeu l'exercice de manière interactive devant l'utilisateur. Ainsi, 
+les premières *clés* caractérisant un exercice sont *title* dont la valeur
+donnera un titre à l'exercice ainsi que *text* dont le contenu donnera le
+corps de l'énoncé. La création d'exercice repose donc sur la définition de 
+*clés* précises qui seront interprétées par la plateforme afin d'afficher 
+l'exercice.
 
 Bien qu'il soit possible d'écrire des exercices sans aucune connaissance en informatique,
 des connaissances en HTML, JavaScript et Python pourront vous permettre de mieux
