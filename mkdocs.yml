@@ -9,14 +9,13 @@ nav:
 - Premier tutoriel
 - Tutoriels Thématiques
 - Documentations techniques spécifiques
+    - Le langage des ressources PL: 'langage_pl.md'
+    - La construction (builder): 'construction.md'
+    - Affichage et Formulaires: 'affichage.md'
+    - L'évaluation (grader): 'evaluation.md'
+    - Paramètres: 'pl_settings.md'
 - Index des clés et Lexique
 - XXX --- OLD DOC --- XXX
-- Ecrire un exercice:
-    - 'Le Langage': 'langage_pl.md'
-    - 'Construction': 'construction.md'
-    - 'Affichage / Formulaire': 'affichage.md'
-    - 'Évaluation': 'evaluation.md'
-    - 'Paramètres': 'pl_settings.md'
 - Ecrire une Feuille d'Exercices: 'pltp.md'
 - Templates:
     - 'Index': 'template_index.md'
