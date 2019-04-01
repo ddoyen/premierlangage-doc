@@ -4,18 +4,18 @@ repo_url: https://github.com/PremierLangage/documentationpl
 edit_uri: tree/master/docs
 
 nav:
-- Bienvenue sur PL coté profs: 'index.md'
-- Présentation de PL: 'presentation.md'
-- Premier tutoriel:
-- Tutoriels Thématiques:
-- Documentations techniques spécifiques:
-    - Le langage des ressources PL: 'langage_pl.md'
-    - La construction (builder): 'construction.md'
-    - Affichage et Formulaires: 'affichage.md'
-    - L'évaluation (grader): 'evaluation.md'
-    - Paramètres: 'pl_settings.md'
-- Index des clés et Lexique:
-- XXX --- OLD DOC --- XXX:
+- 'Bienvenue sur PL coté profs': 'index.md'
+- 'Présentation de PL': 'presentation.md'
+- 'Premier tutoriel':
+- 'Tutoriels Thématiques':
+- 'Documentations techniques spécifiques':
+    - 'Le langage des ressources PL': 'langage_pl.md'
+    - 'La construction (builder)': 'construction.md'
+    - 'Affichage et Formulaires': 'affichage.md'
+    - 'Évaluation et notation (grader)': 'evaluation.md'
+    - 'Paramètres': 'pl_settings.md'
+- 'Index des clés et Lexique':
+- 'XXX --- OLD DOC --- XXX':
 - Ecrire une Feuille d'Exercices: 'pltp.md'
 - Templates:
     - 'Index': 'template_index.md'
