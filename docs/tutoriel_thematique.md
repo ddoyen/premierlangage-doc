@@ -1,0 +1,26 @@
+# Tutoriels thématiques
+
+Bienvenue sur la page recensant les tutoriels thématiques. La philosophie des tutoriels thématiques 
+est la suivante : présenter un petit example simple illustrant une fonctionnalité et une seule. Ce
+sont les exemples parfaits à consulter lorsque vous souhaitez utiliser une nouvelle fonctionnalité
+dans vos productions.
+
+TODO
+
+## Fonctionnalité générales
+
+* TODO : Réaliser votre premier QCM
+* TODO : Faire un exercice aléatoire
+* TODO : Du drag'n'drop (cliqué glisser) dans un exercice
+* TODO : Mettre en place un sérious game : histoire dont vous êtes le héro
+
+## Fonctionnalité pour les mathématiques
+
+* TODO : Inclue du latex dans vos exercices
+* TODO : Inclure le graphe d'une fonction dans un exercice
+
+## Fonctionnalité pour l'informatique
+
+* TODO : Un permier exercice de programmation en C
+* TODO : Un permier exercice de programmation en Python
+
