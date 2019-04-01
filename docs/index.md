@@ -9,7 +9,7 @@ est bienvenue.
 [La présentation](presentation.md) suivante vous décrira une rapide histoire de Premier Langage.
 
 
-## Premier tutoriel : faire un exercice minimal
+## Premier tutoriel
 
 Voici le premier tutoriel pour l'enseignant volontaire de produire et partager des ressources pédagogiques.
 
@@ -60,7 +60,7 @@ le niveau de documentation attendu au développeur de template.
 * TODO : Utitiser l'applet javascript JSXGraph dans vos exercices
 * ...
 
-## Coté Chimie
+### Coté Chimie
 
 * TODO : ...
 
