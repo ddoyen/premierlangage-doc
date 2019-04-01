@@ -10,11 +10,6 @@ nav:
 - Tutoriels Thématiques: 'tutoriels_thematiques.md'
 - Documentations techniques spécifiques: 'documentations_techniques.md'
 - Index des clés et Lexique: 'lexique.md'
-- Graders:
-    - 'Index': 'grader_index.md'
-    - 'Evaluator': 'evaluator.md'
-    - 'Evalfunc': 'evalfunc.md'
-    - 'Java': 'grader_java.md'
 
 theme:
     name: 'readthedocs'
