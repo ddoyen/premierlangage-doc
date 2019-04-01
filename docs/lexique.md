@@ -1,5 +1,31 @@
 # Index des clés et lexiques des termes de Premier Langage
 
+## A
+
+### author (clé optionnelle)
+
+La valeur de cette `clé` permet de spéficier un auteur ou plusieurs auteurs. Comme dans toute
+communauté, l'auteur d'une ressource est toujours un bon juge pour en arbitrer les améliorations
+proposés par la communauté. C'est une saine pratique de préciser les auteurs.
+
+
+## B
+
+### before (clé associé au builder before)
+
+Losqu'une ressource utilise le [builder `before`](before.md), elle doit alors absolument 
+définir une clé `before`. Cette balise, souvent sur plusieurs lignes, devra contenir un 
+petit script Python exécuté une seule fois à la construction.
+
+
+### builder (clé optionnelle)
+
+Le builder est un programme python exécuté avant que l'exercice soit proposer à l'apprenant.
+Le builder sert à rendre les exercices plus dynamiques notament en y insérant des parties
+aléatoires. Sans builder déclaré dans une ressource, l'étape de construction consiste juste 
+à ne rien faire
+
+
 ## G
 
 ### grader (clé obligatoire)
