@@ -87,7 +87,7 @@ La sortie d'erreur est redirigée vers un fichier STDERR_FILE (actuellement `std
 
 En cas d'erreur, le code de retour ainsi que l'ID de l'environnement d'exécution vous seront
 donnés.   
-si le code est 0 tout c'est bien passé. 
+Si le code est 0 tout c'est bien passé. 
 Si le code de retour est strictement positif, il s'agira du code de retour de votre grader,
 et stderr vous sera affiché.
 Si il est négatif, il s'agit d'un code interne à la sandbox (à communiquer à l'administrateur
