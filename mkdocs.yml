@@ -14,7 +14,7 @@ nav:
     - Affichage et Formulaires: 'affichage.md'
     - Évaluation et notation (grader): 'evaluation.md'
     - Paramètres: 'pl_settings.md'
-- Index des clés et Lexique: 'todo.md'
+- Index des clés et Lexique: 'lexique.md'
 - Ecrire une Feuille d'Exercices: 'pltp.md'
 - Templates:
     - 'Index': 'template_index.md'
