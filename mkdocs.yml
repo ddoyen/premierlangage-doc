@@ -6,16 +6,15 @@ edit_uri: tree/master/docs
 nav:
 - 'Bienvenue sur PL coté profs': 'index.md'
 - 'Présentation de PL': 'presentation.md'
-- 'Premier tutoriel':
-- 'Tutoriels Thématiques':
-- 'Documentations techniques spécifiques':
+- 'Premier tutoriel': 'todo.md'
+- 'Tutoriels Thématiques': 'todo.md'
+- 'Documentations techniques spécifiques': 'todo.md'
     - 'Le langage des ressources PL': 'langage_pl.md'
     - 'La construction (builder)': 'construction.md'
     - 'Affichage et Formulaires': 'affichage.md'
     - 'Évaluation et notation (grader)': 'evaluation.md'
     - 'Paramètres': 'pl_settings.md'
-- 'Index des clés et Lexique':
-- 'XXX --- OLD DOC --- XXX':
+- 'Index des clés et Lexique': 'todo.md'
 - Ecrire une Feuille d'Exercices: 'pltp.md'
 - Templates:
     - 'Index': 'template_index.md'
