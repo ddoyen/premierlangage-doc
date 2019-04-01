@@ -7,7 +7,7 @@ nav:
 - Bienvenue sur PL coté profs: 'index.md'
 - Présentation de PL: 'presentation.md'
 - Premier tutoriel: 'premier_tutoriel.md'
-- Tutoriels Thématiques: 'todo.md'
+- Tutoriels Thématiques: 'tutoriels_thematiques.md'
 - Documentations techniques spécifiques:
     - Le langage des ressources PL: 'langage_pl.md'
     - La construction (builder): 'construction.md'
