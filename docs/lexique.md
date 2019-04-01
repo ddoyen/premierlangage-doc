@@ -32,8 +32,10 @@ aléatoires. Sans builder déclaré dans une ressource, l'étape de construction
 
 Dans Premier Langage, on désigne par le terme de grader le programme Python qui doit corriger
 les réponses de l'apprenant. Le grader assure en fait deux missions :
+
 * Il établit une note entre 0 et 100 en analysant les réponses de l'apprenant.
 * Il prépare des feedbacks adaptés suivant les réponses de l'apprenant.
+
 La clé `grader` est donc obligatoire dans tout exercice PL. Soit le grader est définit sur
 place localement dans l'exercice mais comme l'écriture d'un grader demande un peu d'expérience
 avec PL, le plus simple est souvent d'utiliser un template pour hériter de son grader.
