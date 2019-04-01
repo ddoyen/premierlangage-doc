@@ -11,12 +11,8 @@ est bienvenue.
 
 ## Premier tutoriel
 
-Voici le premier tutoriel pour l'enseignant volontaire de produire et partager des ressources pédagogiques.
-
-TODO : L'exercice consite à faire un exo avec les balises suivantes title, text, form et grader. 
-Le formulaire sera un input text html à 1 champ (donner moi votre prénon) et le grader retournera
-100 en affichant le feedback : bravo {le prénom du formulaire} pour ce premier exercice.
-
+Voici le [premier tutoriel](premier_tutoriel.md) pour l'enseignant voulant produire et partager 
+des ressources pédagogiques.
 
 ## Tutoriel thématiques
 
