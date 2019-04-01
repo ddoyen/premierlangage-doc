@@ -6,7 +6,7 @@ edit_uri: tree/master/docs
 nav:
 - Bienvenue sur PL coté profs: 'index.md'
 - Présentation de PL: 'presentation.md'
-- Premier tutoriel: 'todo.md'
+- Premier tutoriel: 'premier_tutoriel.md'
 - Tutoriels Thématiques: 'todo.md'
 - Documentations techniques spécifiques:
     - Le langage des ressources PL: 'langage_pl.md'
