@@ -34,6 +34,7 @@ apprenants. Oui, il existe déjà quelques plateformes mais elles présentaient 
 et les mettre à niveaux étaient soit techniquement impossible, soit cela imposait un coût de 
 développement similaire à partir d'une page blanche. Après quelques prototypes et expériences, les
 choix de technologies profond sont apparus comme naturels :
+
 * Python : le langage de programmation généraliste devenant référence dans l'enseignement (et pas 
   que dans les filières informatiques).
 * Django : pour les données. Rapide, simple, s'articulant avec Python et pouvant facilement tenir 
