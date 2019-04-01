@@ -9,7 +9,7 @@ nav:
 - 'Premier tutoriel': 'todo.md'
 - 'Tutoriels Thématiques': 'todo.md'
 - 'Documentations techniques spécifiques': 'todo.md'
-    - 'Le langage des ressources PL': 'langage_pl.md'
+#    - 'Le langage des ressources PL': 'langage_pl.md'
     - 'La construction (builder)': 'construction.md'
     - 'Affichage et Formulaires': 'affichage.md'
     - 'Évaluation et notation (grader)': 'evaluation.md'
