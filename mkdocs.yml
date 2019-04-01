@@ -4,14 +4,13 @@ repo_url: https://github.com/PremierLangage/documentationpl
 edit_uri: tree/master/docs
 
 nav:
-- Bienvenue sur PL coté profs : 'index.md'
-- Présentation de PL : 'presentation.md'
+- Bienvenue sur PL coté profs: 'index.md'
+- Présentation de PL: 'presentation.md'
 - Premier tutoriel
 - Tutoriels Thématiques
 - Documentations techniques spécifiques
 - Index des clés et Lexique
 - XXX --- OLD DOC --- XXX
-- Home: 'index.md'
 - Ecrire un exercice:
     - 'Le Langage': 'langage_pl.md'
     - 'Construction': 'construction.md'
