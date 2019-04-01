@@ -11,21 +11,21 @@ d'autres sont plus spécifiques.
 * [La construction des ressources (builder)](construction.md)
 * [Évaluation et notation (grader)](evaluation.md)
 * [Paramètres dans les ressources](pl_settings.md)
-* [Ecrire une Feuille d'Exercices]('pltp.md')
+* [Ecrire une Feuille d'Exercices](pltp.md) (assemblage d'un ou plusieurs exercices)
 
 ## Template généraux
 
-* [Qu'est ce qu'un template]('template_index.md')
-* [le builder `before`]('before.md') permettant d'exécuter un petit script Python durant la 
+* [Qu'est ce qu'un template](template_index.md)
+* [le builder `before`](before.md) permettant d'exécuter un petit script Python durant la 
   fabrication de la ressource.
-* [le builder `build`]('build.md') permettant d'exécuter une fonction Python qui pourra modifier
+* [le builder `build`](build.md) permettant d'exécuter une fonction Python qui pourra modifier
   le contexte de l'exercice.
 * Écrire un nouveau grader (TODO : branchement et relecture)
 * Formulaires dans les exercices (TODO : branchement et relecture)
 
 ## Coté informatique
 
-* [Le template java]('template_java.md')
+* [Le template java](template_java.md)
 * TODO : Exercice de programmation en Python avec doctests
 * TODO : Template stdsandboxC pour les exercices de programmation en C
 * ...
