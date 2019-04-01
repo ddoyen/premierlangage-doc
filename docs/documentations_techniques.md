@@ -20,12 +20,17 @@ d'autres sont plus spécifiques.
   fabrication de la ressource.
 * [le builder `build`](build.md) permettant d'exécuter une fonction Python qui pourra modifier
   le contexte de l'exercice.
+* [le grader `evalfunc`](evalfunc.md) pour corriger un exercice en un appel à une seule 
+  fonction Python.
+* [le grader `evaluator`](evaluator.md) pour corriger un exercice à l'aide d'un petit
+  script embarqué dans l'exercice.
 * Écrire un nouveau grader (TODO : branchement et relecture)
 * Formulaires dans les exercices (TODO : branchement et relecture)
 
 ## Coté informatique
 
 * [Le template java](template_java.md)
+* [Le grader java](grader_java.md)
 * TODO : Exercice de programmation en Python avec doctests
 * TODO : Template stdsandboxC pour les exercices de programmation en C
 * ...
