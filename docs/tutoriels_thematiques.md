@@ -21,6 +21,7 @@ TODO
 
 ## Fonctionnalité pour l'informatique
 
+* Utilisez un [editeur de code]('text_editor.md') comme formulaire (TODO : ajouter un exemple minimal dans conceptexo)
 * TODO : Un permier exercice de programmation en C
 * TODO : Un permier exercice de programmation en Python
 
