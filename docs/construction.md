@@ -1,7 +1,7 @@
 # Construction
 
-Afin de construire des exercices ayant une part d'aléatoire, où de faciliter la création de type 
-d'exercices réutilisables, il peut être nécessaires de passer par un script de construction de l'exercice.
+Afin de construire des exercices ayant une part d'aléatoire, ou de faciliter la création de type 
+d'exercices réutilisables, il peut être nécessaire de passer par un script de construction de l'exercice.
 
 Pour cela, il est possible de déclarer un script python dans une clé **builder**
 ou dans un fichier **builder.py**:
@@ -29,7 +29,7 @@ Ce script est appelé avec 2 arguments dans cet ordre:
     python3 builder.py CONTEXT_FILE MODIFIED_CONTEXT_FILE
 
 
-Utilisez l'indice dans la ligne de commande (sys.argv) pour manipuler ces deux fichiers. Le noms étant défini par l'extérieur. 
+Utilisez l'indice dans la ligne de commande (sys.argv) pour manipuler ces deux fichiers. Le nom étant défini par l'extérieur. 
 
 Pour récupérer le context, il est donc possible de faire:
 ```python
