@@ -1,6 +1,8 @@
 # Index des clés et lexiques des termes de Premier Langage
 
+
 ## A
+
 
 ### author (clé optionnelle)
 
@@ -10,6 +12,7 @@ proposés par la communauté. C'est une saine pratique de préciser les auteurs.
 
 
 ## B
+
 
 ### before (clé associé au builder before)
 
@@ -26,7 +29,41 @@ aléatoires. Sans builder déclaré dans une ressource, l'étape de construction
 à ne rien faire
 
 
+## C
+
+
+### codebefore
+
+Dans le template `stdsandboxC`, `codebefore` est utilisé pour inclure du code avant le code
+réponse proposé par l'apprenant. Si par exemple, l'exercice en C demande d'écrire une fonction
+utilisant une nouvelle structure `Node`, alors pour une bonne compilation, la définition de cette 
+structure doit être insérer avant le code rendu par l'apprenant. `codebefore` permet de faire 
+cette discrète insertion.
+
+
+### codeafter
+
+Dans le template `stdsandboxC`, la clé `codeafter` permet de rajouter du code C à la suite du 
+code proposé par l'apprenant et cela avant compilation. Quand un exercice demande de coder une
+fonction et que les tests mettent en jeu un programme, `codeafter` permet à l'enseignant de 
+rajouter une fonction main permettant de tester correctement le code rendu par l'apprenant.
+
+
+
+### codeafter
+
+
+
+## E
+
+
+### extend
+
+TODO : documente-moi si tu peux...
+
+
 ## G
+
 
 ### grader (clé obligatoire)
 
@@ -40,7 +77,19 @@ La clé `grader` est donc obligatoire dans tout exercice PL. Soit le grader est 
 place localement dans l'exercice mais comme l'écriture d'un grader demande un peu d'expérience
 avec PL, le plus simple est souvent d'utiliser un template pour hériter de son grader.
 
+
+## S
+
+
+### solution
+
+Dans le template `stdsandboxC`, la clé `solution` permet de définir une solution enseignant
+invisible pour les apprenants. Le contenu de cette clé est alors utilisé par le template pour
+auto-générer les sorties attendues des tests.
+
+
 ## T
+
 
 ### title (clé obligatoire)
 
@@ -48,6 +97,11 @@ La valeur associé à la clé `title` donne un titre à l'exerice PL. Si vous d�
 dans une activité, alors vous lui spécifierez un titre. Un bon titre est juste une chaîne de caratères.
 Un bon titre décrit simplement le contenu de l'exercice. Les bons titres facilite les recherches et la
 réutilisabilité des ressources.
+
+
+### template (clé optionnelle)
+
+TODO : documente-moi si tu peux...
 
 
 ### text (clé obligatoire)
