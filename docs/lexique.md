@@ -80,6 +80,16 @@ avec PL, le plus simple est souvent d'utiliser un template pour hériter de son 
 
 ## S
 
+### sandboxio.py
+
+sandboxio.py est un module Python pour les utillisateurs experts voulant coder leur propre
+grader. A minima, ces personnes doivent être capable de produire du code et donc de programmer
+en Python. Pour être précis, sandboxio.py est un module qui propose trois fonctions A.P.I.
+pour écrire un grader. Dans le but de vous éviter d'importer les bilbiothèques sys et json, les
+trois fonctions de sandboxio.py vont gérer pour vous les entrées/sorties et la restitution au
+système du couple (note, feedback) tout en updatant le contexte au besoin. Un grader écrit en
+utilisant les entrées/sorties définies avec sandboxio.py a toute les chances d'être PL-compatible.
+
 
 ### solution
 
