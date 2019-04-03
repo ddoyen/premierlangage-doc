@@ -120,7 +120,7 @@ réutilisabilité des ressources.
 ### template (clé optionnelle)
 
 TODO : documente-moi si tu peux...
-Même chose que la baslise (./#extends)[extends] 
+Même chose que la baslise [extends](./#extends)
 
 
 ### text (clé obligatoire)
