@@ -61,6 +61,14 @@ rajouter une fonction main permettant de tester correctement le code rendu par l
 
 TODO : documente-moi si tu peux...
 
+La balise extend est une des plus puissante de PL, elle permet l'héritage. 
+```python
+  # ceci est dans le fichier deuxieme.pl 
+  extend= premier.pl 
+```
+La ligne précédente a pour effet d'ajouter dans le dictionnaire de l'exercice _deuxieme_ les clefs de l'exercice _premier_.
+
+
 
 ## G
 
@@ -112,6 +120,7 @@ réutilisabilité des ressources.
 ### template (clé optionnelle)
 
 TODO : documente-moi si tu peux...
+Même chose que la baslise [#extends](extends) 
 
 
 ### text (clé obligatoire)
