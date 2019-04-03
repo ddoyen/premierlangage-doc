@@ -69,6 +69,17 @@ La balise extend est une des plus puissante de PL, elle permet l'héritage.
 La ligne précédente a pour effet d'ajouter dans le dictionnaire de l'exercice _deuxieme_ les clefs de l'exercice _premier_.
 
 
+##F
+
+### form
+
+Le formulaire de l'exercice. L'idée est que l'on veux une action de l'utilisateur et donc que l'on souhaite lui fournir des input html pour cela. La gestion de la form est laissé à PL il vous suffit de définir les **input** souhaités dans la balise form. Par exemple pour une response textuelle simple:
+```python
+form==
+<input type="text" name="form_answer" >
+==
+```
+
 
 ## G
 
