@@ -36,12 +36,12 @@ développement similaire à partir d'une page blanche. Après quelques prototype
 choix de technologies profond sont apparus comme naturels :
 
 * Python : le langage de programmation généraliste devenant référence dans l'enseignement (et pas 
-  que dans les filières informatiques).
+  que dans les filières informatiques).  
 * Django : pour les données. Rapide, simple, s'articulant avec Python et pouvant facilement tenir 
-  la charge.
-* Docker : pour le déploiement, les machines virtuelles, la sécurité et sa légèreté.
+  la charge.  
+* Docker : pour le déploiement, les machines virtuelles, la sécurité et sa légèreté.  
 * L.T.I. : Learning Tools Interoperability, pour le coté intégration et interaction avec les outils
-  existants des enseignants.
+  existants des enseignants.  
 
 Certains sites internet savent déjà exécuter de manière sécurisée des bouts de code soumis par les visiteurs, 
 mais ces plateformes ne sont pas ouvertes à une école, une université. L'authentification, le contrôle
@@ -79,13 +79,14 @@ pédagogiques. Premier Langage ne souhaite pas se spécialiser vers l'informatiq
 travail technique étant compliqué et couteux, si la montée en charge et la sécurité sont tous deux garanties, 
 Premier Langage espère pouvoir héberger toute ressource issue de n'importe quel domaine. Aussi, Premier 
 Langage souhaite monter en fonctionnalité de suivi et pilotage pédagogique, des choses qui sont lourdes à
-développer mais qui peut profiter à tout enseignant quel que soit la matière enseignée :
-* Identification automatique des élèves en difficulté ou en retard.
-* Statistiques sur les ressources pédagogiques proposées.
+développer mais qui peuvent profiter à tout enseignant quel que soit la matière enseignée :
+
+* Identification automatique des élèves en difficulté ou en retard.  
+* Statistiques sur les ressources pédagogiques proposées.  
 * Retour et conseil auto-généré pour permettre aux élèves d'appréhender la quantité et qualité de leur 
-  travaux par rapport à leur camarade, par rapport à ce qui est attendu.
-* Iddentification des lacunes de manière personnalisé.
-* Recommandation de ressources identifiées comme pédagogiquement performantes suivant les profils.
+  travaux par rapport à leur camarade, par rapport à ce qui est attendu.  
+* Iddentification des lacunes de manière personnalisé.  
+* Recommandation de ressources identifiées comme pédagogiquement performantes suivant les profils.  
 
 Aujoud'hui, dans de nombreuses formations, les enseignants ne sont pas assez nombreux pour pratiquer des 
 suivis individualisés réguliers. Les retours à la fois automatisées et performants sont extrêment 
