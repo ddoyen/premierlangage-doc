@@ -1,6 +1,14 @@
 # Index des clés et lexiques des termes de Premier Langage
 
 
+À la fois index et Lexique, cette page a vocation à recenser les clés et termes importants utilisés
+dans les ressources de Premier Langage. Si vous programmez de nouvelles ressources, en imaginant de nouveaux
+templates ou en définissant de nouvelles clés, il vous sera demandé de mettre cette page à jour. La description
+des items présents n'est pas forcement complète ; il vous faut surtout résumer rapidement le rôle d'une clé et 
+de sa valeur ou encore décrire rapidement les termes et notions relatif à Premier Langage. C'est une page de
+documentation pour les gens pressés mais aussi un point d'entré vers d'autres pages de documentation.
+
+
 ## A
 
 
