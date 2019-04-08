@@ -32,7 +32,7 @@ aléatoires. Sans builder déclaré dans une ressource, l'étape de construction
 ## C
 
 
-### codebefore
+### codebefore (Clé associé au template stdsandboxC)
 
 Dans le template `stdsandboxC`, `codebefore` est utilisé pour inclure du code avant le code
 réponse proposé par l'apprenant. Si par exemple, l'exercice en C demande d'écrire une fonction
@@ -41,7 +41,7 @@ structure doit être insérer avant le code rendu par l'apprenant. `codebefore` 
 cette discrète insertion.
 
 
-### codeafter
+### codeafter (Clé associé au template stdsandboxC)
 
 Dans le template `stdsandboxC`, la clé `codeafter` permet de rajouter du code C à la suite du 
 code proposé par l'apprenant et cela avant compilation. Quand un exercice demande de coder une
@@ -49,29 +49,30 @@ fonction et que les tests mettent en jeu un programme, `codeafter` permet à l'e
 rajouter une fonction main permettant de tester correctement le code rendu par l'apprenant.
 
 
-
-### codeafter
-
-
-
 ## E
 
 
-### extend
+### extend (clé optionnelle)
 
-TODO : documente-moi si tu peux...
+La balise extend permet d'importer automatiquement des informations issus d'un template ou 
+encore d'un autre exercice. C'est comme une inclusion ou encore un copier coller. Tout ce qui 
+se trouvait dans la source va se retrouver dans la cible et il reste toutefois possible de 
+redéfinir les valeurs des clés importées. C'est ce qu'on appelle l'héritage (de manière générale 
+en informatique). La cible hérite de la source. C'est très puissant dans le sens que ça permet
+de créer très rapidement des clônes, puis de modifier les clônes créés.
 
-La balise extend est une des plus puissante de PL, elle permet l'héritage. 
+Voici un exemple :
 ```python
   # ceci est dans le fichier deuxieme.pl 
   extend= premier.pl 
 ```
-La ligne précédente a pour effet d'ajouter dans le dictionnaire de l'exercice _deuxieme_ les clefs de l'exercice _premier_.
+La ligne précédente a pour effet d'ajouter dans le dictionnaire de l'exercice 
+_deuxieme_ les clefs de l'exercice _premier_.
 
 
-##F
+## F
 
-### form
+### form (clé obligatoire)
 
 Le formulaire de l'exercice. L'idée est que l'on veux une action de l'utilisateur et donc que l'on souhaite lui fournir des input html pour cela. La gestion de la form est laissé à PL il vous suffit de définir les **input** souhaités dans la balise form. Par exemple pour une response textuelle simple:
 ```python
@@ -99,7 +100,7 @@ avec PL, le plus simple est souvent d'utiliser un template pour hériter de son 
 
 ## S
 
-### sandboxio.py
+### sandboxio.py (Module utilitaire pour fabriquer un nouveaux grader (niveau avancé))
 
 sandboxio.py est un module Python pour les utillisateurs experts voulant coder leur propre
 grader. A minima, ces personnes doivent être capable de produire du code et donc de programmer
@@ -110,7 +111,7 @@ système du couple (note, feedback) tout en updatant le contexte au besoin. Un g
 utilisant les entrées/sorties définies avec sandboxio.py a toute les chances d'être PL-compatible.
 
 
-### solution
+### solution (Clé associé au template stdsandboxC)
 
 Dans le template `stdsandboxC`, la clé `solution` permet de définir une solution enseignant
 invisible pour les apprenants. Le contenu de cette clé est alors utilisé par le template pour
@@ -130,8 +131,11 @@ réutilisabilité des ressources.
 
 ### template (clé optionnelle)
 
-TODO : documente-moi si tu peux...
 Même chose que la baslise [extends](./#extends)
+Extends est en fait plus général (extends permet d'hériter de n'importe quel type de ressource). Si
+vous souhaitez hériter d'un template, alors utiliser plutôt la clé template que la clé extends, c'est
+plus propre et plus clair, vous spécifié alors vraiment votre ressource comme étant un certain 
+type d'exercice.
 
 
 ### text (clé obligatoire)
