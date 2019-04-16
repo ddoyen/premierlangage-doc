@@ -1,6 +1,9 @@
 # Premier tutoriel : un exercice minimal avec Premier Langage
 
-TODO
 
-TODO : Faire pas à pas un exercice qui demande son prénom à l'apprenant et dont
-le grader le fécilite à chaque coup personnellement.
+
+Vous êtes connecté à https://pl.u-pem.fr/ vous avez un menu Editeur. 
+
+Cliquez dessus vous arriver sur https://pl.u-pem.fr/filebrowser 
+
+Prenez un moment pour lire les informations sur PL Editor. 
