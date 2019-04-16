@@ -3,7 +3,7 @@
 Les documentations suivantes sont plus complètes et plus techniques. Certaines sont générales, 
 d'autres sont plus spécifiques. 
 
-## Focntionnement de PL
+## Fonctionnement de PL
 
 * TODO : Stratégie générale de la mise en situation (description globale de playexo avec schéma...)
 * [Le langage des ressources PL](langage_pl.md)
