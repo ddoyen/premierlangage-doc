@@ -22,25 +22,27 @@ proposés par la communauté. C'est une saine pratique de préciser les auteurs.
 ## B
 
 
-### before (clé associé au builder before)
+### before (clé utilisée par le builder `before` )
 
 Losqu'une ressource utilise le [builder `before`](before.md), elle doit alors absolument 
 définir une clé `before`. Cette balise, souvent sur plusieurs lignes, devra contenir un 
-petit script Python exécuté une seule fois à la construction.
-
+petit script Python exécuté une seule fois à la construction. Pour utilisez cette clef il faut avoir la ligne 
+```
+@ /builder/before.py [builder.py]
+```
 
 ### builder (clé optionnelle)
 
-Le builder est un programme python exécuté avant que l'exercice soit proposer à l'apprenant.
+Le builder est un programme python exécuté avant que l'exercice soit proposé à l'apprenant.
 Le builder sert à rendre les exercices plus dynamiques notament en y insérant des parties
-aléatoires. Sans builder déclaré dans une ressource, l'étape de construction consiste juste 
-à ne rien faire
+aléatoires.
+Sans builder déclaré dans une ressource, l'étape de construction ne modifie pas l'exercice. 
 
 
 ## C
 
 
-### codebefore (Clé associé au template stdsandboxC)
+### codebefore (Clé spécifique au template stdsandboxC)
 
 Dans le template `stdsandboxC`, `codebefore` est utilisé pour inclure du code avant le code
 réponse proposé par l'apprenant. Si par exemple, l'exercice en C demande d'écrire une fonction
@@ -49,7 +51,7 @@ structure doit être insérer avant le code rendu par l'apprenant. `codebefore` 
 cette discrète insertion.
 
 
-### codeafter (Clé associé au template stdsandboxC)
+### codeafter (Clé spécifique au template stdsandboxC)
 
 Dans le template `stdsandboxC`, la clé `codeafter` permet de rajouter du code C à la suite du 
 code proposé par l'apprenant et cela avant compilation. Quand un exercice demande de coder une
@@ -95,35 +97,41 @@ form==
 
 ### grader (clé obligatoire)
 
-Dans Premier Langage, on désigne par le terme de grader le programme Python qui doit corriger
+On désigne par le terme de `grader` le programme Python qui doit corriger
 les réponses de l'apprenant. Le grader assure en fait deux missions :
 
 * Il établit une note entre 0 et 100 en analysant les réponses de l'apprenant.
 * Il prépare des feedbacks adaptés suivant les réponses de l'apprenant.
 
-La clé `grader` est donc obligatoire dans tout exercice PL. Soit le grader est définit sur
+La clé `grader` est donc obligatoire dans tout exercice PL. Soit le grader est défini sur
 place localement dans l'exercice mais comme l'écriture d'un grader demande un peu d'expérience
 avec PL, le plus simple est souvent d'utiliser un template pour hériter de son grader.
+
+Exemple:
+```
+@ /grader/executor.py [grader.py]
+```
 
 
 ## S
 
-### sandboxio.py (Module utilitaire pour fabriquer un nouveaux grader (niveau avancé))
+### sandboxio.py 
 
-sandboxio.py est un module Python pour les utillisateurs experts voulant coder leur propre
-grader. A minima, ces personnes doivent être capable de produire du code et donc de programmer
-en Python. Pour être précis, sandboxio.py est un module qui propose trois fonctions A.P.I.
-pour écrire un grader. Dans le but de vous éviter d'importer les bilbiothèques sys et json, les
-trois fonctions de sandboxio.py vont gérer pour vous les entrées/sorties et la restitution au
-système du couple (note, feedback) tout en updatant le contexte au besoin. Un grader écrit en
-utilisant les entrées/sorties définies avec sandboxio.py a toute les chances d'être PL-compatible.
+**Module python pour fabriquer un nouveau `grader` (niveau avancé)**
+
+sandboxio.py est un module Python pour les utilisateurs experts voulant coder leur propre
+grader. A minima, ces personnes doivent être capables de programmer des entrées sorties 
+en Python. Le module sandboxio.py propose trois fonctions d'A.P.I.
+pour écrire des `grader`. Ces trois fonctions de sandboxio.py vont gérer les entrées/sorties et la restitution au
+système du couple (note, feedback) tout en updatant le contexte. Un grader écrit en
+utilisant les entrées/sorties définies avec sandboxio.py a plus de chances d'être PL-compatible.
 
 
-### solution (Clé associé au template stdsandboxC)
+### solution (Clé spécifique au template stdsandboxC)
 
 Dans le template `stdsandboxC`, la clé `solution` permet de définir une solution enseignant
 invisible pour les apprenants. Le contenu de cette clé est alors utilisé par le template pour
-auto-générer les sorties attendues des tests.
+produire les sorties attendues des tests. Le template réalisant la comparaisont avec les réponses de l'élève.
 
 
 ## T
@@ -132,9 +140,9 @@ auto-générer les sorties attendues des tests.
 ### title (clé obligatoire)
 
 La valeur associé à la clé `title` donne un titre à l'exerice PL. Si vous définissez cette balise
-dans une activité, alors vous lui spécifierez un titre. Un bon titre est juste une chaîne de caratères.
-Un bon titre décrit simplement le contenu de l'exercice. Les bons titres facilite les recherches et la
-réutilisabilité des ressources.
+dans une activité, alors vous lui spécifierez un titre.
+Un bon titre est juste une chaîne de caratères qui décrit simplement le contenu de l'exercice.
+Les bons titres facilitent les recherches et la réutilisabilité des ressources.
 
 
 ### template (clé optionnelle)
