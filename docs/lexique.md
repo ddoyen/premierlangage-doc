@@ -142,7 +142,9 @@ produire les sorties attendues des tests. Le template réalisant la comparaisont
 La valeur associé à la clé `title` donne un titre à l'exerice PL. Si vous définissez cette balise
 dans une activité, alors vous lui spécifierez un titre.
 Un bon titre est juste une chaîne de caratères qui décrit simplement le contenu de l'exercice.
-Les bons titres facilitent les recherches et la réutilisabilité des ressources.
+Les bons titres pleins de sens facilitent les recherches et la réutilisabilité des ressources.
+Eviter les titres du genre : exo1, exo2 ,exo3 ... exo7 (particulièrment dangereux).
+
 
 
 ### template (clé optionnelle)
