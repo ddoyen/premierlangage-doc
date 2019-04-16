@@ -6,7 +6,7 @@ est bienvenue.
 
 
 ## Présentation de Premier Langage
-[La présentation](presentation.md) suivante vous décrira une rapide histoire de Premier Langage.
+[La présentation](presentation.md) suivante vous décrira un rapide histoire de Premier Langage.
 
 
 ## Premier tutoriel
