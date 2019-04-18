@@ -6,7 +6,7 @@ est bienvenue.
 
 
 ## Présentation de Premier Langage
-[La présentation](presentation.md) suivante vous décrira un rapide histoire de Premier Langage.
+[La présentation](presentation.md) suivante vous décrira un rapide historique de Premier Langage.
 
 
 ## Premier tutoriel
@@ -31,5 +31,5 @@ décrivant son utilisation, ses secrets, son esprit et ses fonctionnement intern
 
 ## Index des clés et Lexique
 
-La page suivante TODO vous décrira l'ensemble des termes techniques et des clés que l'on peut croiser dans
-Premier Langage et ses ressources.
+La page suivante d'[index et lexique](lexique.md) vous décrira l'ensemble des termes techniques 
+et des clés que l'on peut croiser dans Premier Langage et ses ressources.
