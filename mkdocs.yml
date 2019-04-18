@@ -13,3 +13,6 @@ nav:
 
 theme:
     name: 'readthedocs'
+
+markdown_extensions:
+  - footnotes
