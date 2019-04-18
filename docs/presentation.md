@@ -103,7 +103,9 @@ minimal en consultant le premier tutoriel.
 
 
 
-[^1]: Compatibilité des équipements, des procédures ou des organisations permettant à plusieurs systèmes, forces armées ou organismes d'agir ensemble : Interopérabilité des forces de l'OTAN.
+[^1]: 
+    Compatibilité des équipements, des procédures ou des organisations permettant à plusieurs systèmes, forces armées 
+    ou  organismes d'agir ensemble : Interopérabilité des forces de l'OTAN.
 
-[^2]: Les tableaux de bord permettent à l'enseignant de visualiser les informations de sa classe d'un seul coup d'oeil. 
-
+[^2]: 
+    Les tableaux de bord permettent à l'enseignant de visualiser les informations de sa classe d'un seul coup d'oeil. 
