@@ -14,7 +14,7 @@ est bienvenue.
 Voici le [premier tutoriel](premier_tutoriel.md) pour l'enseignant voulant produire et partager 
 des ressources pédagogiques.
 
-## Tutoriel thématiques
+## Tutoriels thématiques
 
 Les [tutoriels thématiques](tutoriels_thematiques.md) vous exposerons rapidement comment mettre 
 en place une fonctinnalité évoluée dans un exercice. De complexité réduite, ces tutoriels présentent 
