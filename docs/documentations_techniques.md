@@ -12,6 +12,7 @@ d'autres sont plus spécifiques.
 * [Évaluation et notation (grader)](evaluation.md)
 * [Paramètres dans les ressources](pl_settings.md)
 * [Ecrire une Feuille d'Exercices](pltp.md) (assemblage d'un ou plusieurs exercices)
+* [Tester un exercice](pl_testing.md) (Créer des tests automatiques pour vos exercices)
 
 ## Template généraux
 
