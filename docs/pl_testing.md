@@ -1,5 +1,7 @@
 # Ecriture d'un test
 
+(Version 0.6.2 minimum)
+
 L'objectif est d'apprendre à écrire des tests automatiques pour vos PL afin de vérifier que les réponses données par un étudiant donnent bien le feedback et la note attendus.
 
 ## La balise tests
